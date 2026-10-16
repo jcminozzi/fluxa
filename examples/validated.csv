@@ -1,0 +1,2 @@
+file,invoice_id,supplier,total,currency,due_date
+invoice-complete.txt,DEMO-001,Empresa Exemplo de Automação,1490.50,BRL,2026-11-20

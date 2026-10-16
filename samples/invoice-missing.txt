@@ -1,0 +1,6 @@
+DOCUMENTO FICTÍCIO PARA DEMONSTRAÇÃO
+DOCUMENTO: DEMO-002
+FORNECEDOR: Oficina Exemplo
+TOTAL: R$ 250,00
+MOEDA: BRL
+Este documento não informa o vencimento e deve seguir para revisão.

@@ -1,0 +1,83 @@
+[
+  {
+    "file": "invoice-complete.txt",
+    "sha256": "61fd98a30adad483b786dac72517e12d870018bcda7ca4b3ad3bcd5ea5429917",
+    "provider": "rules",
+    "status": "validated",
+    "fields": {
+      "invoice_id": "DEMO-001",
+      "supplier": "Empresa Exemplo de Automação",
+      "total": "1490.50",
+      "currency": "BRL",
+      "due_date": "2026-11-20"
+    },
+    "evidence": {
+      "invoice_id": {
+        "value": "DEMO-001",
+        "quote": "DOCUMENTO: DEMO-001"
+      },
+      "supplier": {
+        "value": "Empresa Exemplo de Automação",
+        "quote": "FORNECEDOR: Empresa Exemplo de Automação"
+      },
+      "total": {
+        "value": "R$ 1.490,50",
+        "quote": "TOTAL: R$ 1.490,50"
+      },
+      "currency": {
+        "value": "BRL",
+        "quote": "MOEDA: BRL"
+      },
+      "due_date": {
+        "value": "2026-11-20",
+        "quote": "VENCIMENTO: 2026-11-20"
+      }
+    },
+    "errors": [],
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0
+    }
+  },
+  {
+    "file": "invoice-missing.txt",
+    "sha256": "dd78270ca5fe738c7eeadb8fe7d84c7f348230bf7d5b89837e46916b53259386",
+    "provider": "rules",
+    "status": "needs_review",
+    "fields": {
+      "invoice_id": "DEMO-002",
+      "supplier": "Oficina Exemplo",
+      "total": "250.00",
+      "currency": "BRL"
+    },
+    "evidence": {
+      "invoice_id": {
+        "value": "DEMO-002",
+        "quote": "DOCUMENTO: DEMO-002"
+      },
+      "supplier": {
+        "value": "Oficina Exemplo",
+        "quote": "FORNECEDOR: Oficina Exemplo"
+      },
+      "total": {
+        "value": "R$ 250,00",
+        "quote": "TOTAL: R$ 250,00"
+      },
+      "currency": {
+        "value": "BRL",
+        "quote": "MOEDA: BRL"
+      },
+      "due_date": {
+        "value": null,
+        "quote": null
+      }
+    },
+    "errors": [
+      "due_date: campo ausente"
+    ],
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0
+    }
+  }
+]
